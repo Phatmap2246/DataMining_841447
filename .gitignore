@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# VS Code & Jupyter
+.vscode/
+.jupyter/
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Data (Chặn toàn bộ data lớn, chỉ giữ lại file .gitkeep nếu có)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Models
+models/*
+!models/.gitkeep
+
+# Thư mục nháp (Nếu 2_classification là đồ nháp, nếu là đồ thật thì xóa dòng này đi)
+2_classification/
