@@ -23,6 +23,3 @@ data/processed/*
 # Models
 models/*
 !models/.gitkeep
-
-# Thư mục nháp (Nếu 2_classification là đồ nháp, nếu là đồ thật thì xóa dòng này đi)
-2_classification/
